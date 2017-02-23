@@ -26,8 +26,20 @@ var apos = require('apostrophe')({
           name: 'site'
         }
       ]
-    }
+    },
     // Add your modules and their respective configuration here!
+    'apostrophe-pages': {
+      types: [
+        {
+          name: 'default',
+          label: 'Default'
+        },
+        {
+          name: 'home',
+          label: 'Home'
+        },
+      ]
+    }
   }
 
 });
